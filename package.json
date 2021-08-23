@@ -1,0 +1,26 @@
+{
+  "name": "verelarinzanoer.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "csspro": "cross-env NODE_ENV=production tailwindcss -i src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verelarinzanoer/verelarinzanoer.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verelarinzanoer/verelarinzanoer.github.io/issues"
+  },
+  "homepage": "https://github.com/verelarinzanoer/verelarinzanoer.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.2",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
